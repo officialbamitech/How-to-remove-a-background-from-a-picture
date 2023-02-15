@@ -1,4 +1,4 @@
-"""Mit diesen Python Library kann man durch einpaar codes den Hintergrund eines Bildes ganzeinfach entfernen"""
+"""With this Python library you can easily remove the background of an image with a few codes"""
 
 import rembg
 from PIL import Image
@@ -8,6 +8,3 @@ output_path = "images_2.png"
 input_image = Image.open(input_path)
 output_image = rembg.remove(input_image)
 output_image.save(output_path)
-
-
-
