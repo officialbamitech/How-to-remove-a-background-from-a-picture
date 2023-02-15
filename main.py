@@ -1,4 +1,4 @@
-"""With this Python library you can easily remove the background of an image with a few codes"""
+# with this Python library you can easily remove the background of an image with only a few lines of code
 
 import rembg
 from PIL import Image
